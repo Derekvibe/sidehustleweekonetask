@@ -1,0 +1,79 @@
+*{
+    margin: auto;
+    padding: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-image:url(/Image/pexels-pixabay-36717.jpg
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main{
+    width: auto;
+    padding-top: 15%;
+    padding-left: 40%;
+}
+
+main h1{
+    font-size: 30px;
+    color: white;
+    padding: 0px 0px 20px 100px;
+}
+
+#Create, #Create form {
+    color: white;
+    font-size: 16px;
+}
+
+input {
+    color:white;
+    font-size: 18px;
+    width: 40%;
+    height: 35px;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    border-bottom:3px solid red;
+    transition: ease-in-out 3s;
+    outline: none;
+    box-sizing: border-box;
+    background:transparent;
+}
+
+
+label, select { 
+    width: 20%;
+    height: 30px;
+    font-size: 16px;
+}
+
+input[type="checkbox"]{
+    width: 13px;
+}
+
+.small {
+    display: flex;
+    margin-right: 550px;
+}
+.small p {
+    font-size: 14px;
+}
+
+
+.btn{
+    font-size: 20px;
+    margin: 15px 0 0 15%;
+    color:black;
+    width: 10%;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: green;
+    color: aliceblue;
+    transition: ease-in-out 3s;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REVERB REGISTRATION FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+            <h1>Create Account</h1>
+        <div id="Create">
+            <form action="submit" method="" id="form">
+                <input type="text" id="firstname" placeholder="First Name" required>
+                <br>
+                <input type="text" id="lastname" placeholder="Last Name" required>
+                <br>
+                <input type="email" id="mail" placeholder="example@gmail.com" required>
+                <br>
+                <input type="tel" name="Number" id="phone" placeholder="your phone Digits">
+                <br>
+                <input type="password" name="password" id="pass" placeholder="Create Password" required>
+                <br>
+                <br>
+                <label for="Gender">Gender</label>
+                <select name="Gender" id="Gender" required>
+                    <option value="#">Select your Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Not Specified">Not Specified</option>
+                </select>
+                <br>
+
+            <span class="small">
+                <div>
+                    <input type="checkbox"required>
+                </div>
+                <div>
+                    <p>Click the box if you are sure that all the information provided is correct.</p>
+                </div>             
+                <br>
+            </span>
+
+            <button type="submit" class="btn"> submit</button>
+                
+            </form>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
