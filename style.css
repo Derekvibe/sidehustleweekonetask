@@ -4,29 +4,34 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 body{
-    background-image:url(/Image/pexels-pixabay-36717.jpg
+    background-image:url(/Image/pexels-zehra-8388535.jpg
     );
     background-size: cover;
     background-repeat: no-repeat;
+    opacity: 200%;
 }
 
 main{
     width: auto;
-    padding-top: 15%;
-    padding-left: 40%;
+    margin-top: 10%;
+    Margin-left: 40%;
 }
 
 main h1{
     font-size: 30px;
     color: white;
-    padding: 0px 0px 20px 100px;
+    padding: 0px 0px 5% 10%;
 }
 
+
+
+/* FORM */
 #Create, #Create form {
     color: white;
     font-size: 16px;
 }
 
+/* FORM INPUT */
 input {
     color:white;
     font-size: 18px;
@@ -36,13 +41,14 @@ input {
     margin: 5px;
     border: none;
     border-bottom:3px solid red;
-    transition: ease-in-out 3s;
+    transition: ease-in-out 2s;
     outline: none;
     box-sizing: border-box;
     background:transparent;
 }
 
 
+/* GENDER */
 label, select { 
     width: 20%;
     height: 30px;
@@ -53,20 +59,26 @@ input[type="checkbox"]{
     width: 13px;
 }
 
-.small {
+.small,.smallscreen {
     display: flex;
-    margin-right: 550px;
+    margin-right: 500px;
+    margin-top:15px
+
 }
 .small p {
     font-size: 14px;
 }
 
+.smallscreen{
+    display: none;
+}
 
+/* FORM BUTTON */
 .btn{
     font-size: 20px;
-    margin: 15px 0 0 15%;
+    margin: 15px 0 0 100px;
     color:black;
-    width: 10%;
+    width: 15%;
     border-radius: 3px;
     border: none;
     cursor: pointer;
@@ -75,5 +87,60 @@ input[type="checkbox"]{
 .btn:hover{
     background-color: green;
     color: aliceblue;
-    transition: ease-in-out 3s;
+    transition: ease-in-out 2s;
+}
+
+
+/* LOGIN SECTION */
+.login{
+    margin-top: 20px;
+}
+
+
+.login a{
+    text-decoration: none;
+    color: red;
+}
+
+.login a:hover{
+    text-decoration: underline white;
+    transition: ease-in-out 1s;
+}
+
+.login p {
+    padding-left: 10px;
+}
+
+
+
+/* RESPONSIVENESS */
+@media (max-width:940px) {
+    main h1 {
+        font-size: 30px;
+         color: white; 
+         padding: 0px 0px 10px 20px 
+    }
+
+    .small {
+        display: none;
+    }
+    .smallscreen input[type='checkbox']{
+        margin-left: 20%;
+    }
+    .smallscreen {
+        display: block;
+        width: 100%;
+        font-size: 14px;
+    }
+    .btn{
+        font-size: 14px;
+        margin: 15px 0 0 100px;
+        color:black;
+        width: 15%;
+        border-radius: 3px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    
 }
